@@ -1,0 +1,432 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #090E21;
+}
+
+/*    Header sectin     */
+.header-background {
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#header .heading-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    padding-top: 126px;
+}
+
+.logo {
+    padding-top: 38px;
+}
+
+#header span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-start {
+    background-color: #3FADD8;
+    padding: 13px 37px;
+    border-radius: 0px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    border: 2px solid #3FADD8;
+    color: white;
+}
+
+.dollar-font {
+    font-size: 1.3rem;
+}
+
+.background-color {
+    background-color: #090E21;
+}
+
+.btn-start:hover {
+    background-color: transparent;
+    color: #3FADD8;
+    border: 2px solid #3FADD8;
+    transition: 0.3s;
+}
+
+/*    Vechile sectin     */
+
+
+
+.vehicle-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    padding-top: 17px;
+}
+
+#vehicle-img {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.heading-size {
+    font-size: 32px;
+    line-height: 127%;
+    padding-top: 187px;
+    color: white;
+    font-weight: normal;
+}
+
+/*    carwash sectin     */
+
+.list-type {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.btn-no {
+    border: 2px solid white;
+    padding: 13px 0px;
+    color: white;
+    border-radius: 0px;
+    width: 22%;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-no:hover {
+    background-color: #3FADD8;
+    border-radius: 0px;
+    border: 2px solid #3FADD8;
+    width: 22%;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+/*   drive sectin     */
+
+.btn-small2 {
+    background-color: #3FADD8;
+    padding: 13px 21px;
+    border-radius: 0px;
+    font-size: 1rem;
+    margin-right: 22px;
+    border: 2px solid #3FADD8;
+}
+
+.btn-small2:hover {
+    background-color: transparent;
+    color: #3FADD8;
+    border: 2px solid #3FADD8;
+    transition: 0.3s;
+}
+
+/*   Coating sectin     */
+/*   Client sectin     */
+.client-section {
+    background-color: #13182A;
+}
+
+.client-section h6 {
+    color: #5DC3EC;
+}
+
+.client-section a {
+    background-color: #3FADD8;
+    padding: 12px 26px;
+    border-radius: 0px;
+    border: 2px solid #3FADD8;
+    font-size: 1rem;
+    color: white;
+    margin-top: 54px;
+}
+
+.client-section a:hover {
+    background-color: transparent;
+    color: #3FADD8;
+    border: 2px solid #3FADD8;
+    transition: 0.3s;
+}
+
+.client-section p {
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 400;
+}
+
+#client h6 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*   carwash sectin     */
+
+.carwash-imag {
+    background-image: url(../images/bg-imag.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/*  drive sectin     */
+.drive-imag {
+    background-image: url(../images/bg-imag2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* coating sectin     */
+.coating-imag {
+    background-image: url(../images/bg-imag3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* dollar sectin     */
+.dollar-imag {
+    background-image: url(../images/dollar.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.vehicle-progress {
+    padding-top: 80px;
+}
+
+.five {
+    color: #5C5C5C;
+}
+
+.btn-small {
+    background-color: #3FADD8;
+    padding: 13px 0px;
+    border-radius: 0px;
+    width: 22%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 22px;
+    border: 2px solid #3FADD8;
+}
+
+.btn-small:hover {
+    background-color: transparent;
+    color: #3FADD8;
+    border: 2px solid #3FADD8;
+    transition: 0.3s;
+}
+
+/* footer sectin     */
+.footer-background {
+    background-image: url(../images/fotr-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer-background h3 {
+    font-size: 45px;
+    padding-top: 117px;
+}
+
+.progress {
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #2B2F3F;
+    border-radius: 0.25rem;
+    height: 3px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3FADD8;
+    transition: width .6s ease;
+}
+
+/* coating page    */
+.paragraph-color {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.header-img .price {
+    color: #F20320;
+    font-weight: bold;
+    font-size: 120px;
+}
+#old h5{
+    font-size: 34px;
+}
+.header-img p {
+    font-size: 22px;
+}
+
+.header-img h6 {
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: 500;
+}
+
+.card-imag {
+    background-image: url(../images/bg-card.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 95px;
+}
+
+#bottle-card h4 {
+    font-size: 34px;
+}
+
+.header-img .cost-size {
+    font-size: 40px;
+}
+
+.color-blue {
+    color: #5DC3EC;
+}
+
+.color-blue2 {
+    color: #3FADD8;
+}
+
+.pricing-font {
+    font-size: 22px;
+    padding-top: 27px;
+}
+
+.para-color {
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#paragraph p {
+    font-size: 18px;
+}
+
+.old-size {
+    font-size: 1.3rem;
+}
+
+.card-bg {
+    background-color: #222637;
+}
+
+.input-button {
+    background-color: #3FADD8;
+    color: white;
+    font-size: 0.9rem;
+    padding: 9px 10px;
+    border: 1px solid #3FADD8;
+    border-radius: 0px;
+    font-weight: normal;
+}
+
+.logo-img {
+    padding-top: 140px;
+}
+
+.form-input {
+    background-color: transparent;
+    border: 2px solid #3FADD8;
+    border-radius: 0px;
+    height: 50px;
+}
+
+.anchor {
+    padding-top: 46.35px;
+}
+
+.anchor a {
+    font-size: 18px;
+}
+
+.anchor p {
+    padding-top: 21px;
+    font-size: 12px;
+}
+
+.form-input:focus {
+    background-color: transparent;
+    border: 2px solid #3FADD8;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#client {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+#header {
+    height: 100vh;
+}
+
+.header-img h2 {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.header-img .bg {
+    position: absolute;
+}
+
+.header-img .img2 {
+    right: 0;
+    top: 50px;
+}
+
+.btn-off {
+    background-color: #3FADD8;
+    padding: 13px 45px;
+    border-radius: 0px;
+    font-size: 1rem;
+    border: 2px solid #3FADD8;
+}
+
+
+
+.btn-off:hover {
+    background-color: transparent;
+    color: #3FADD8;
+    border: 2px solid #3FADD8;
+    transition: 0.3s;
+}
+
+
+.listContent li {
+    display: flex;
+
+}
+
+.listContent .list {
+    padding-top: 40px;
+}
+
+.listContent li p {
+    margin: 0;
+}
+
+.listContent li p {
+    flex: 1;
+}
